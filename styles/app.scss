@@ -2,3 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind screens;
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+    @media screen and (max-width: 1400px) {
+        padding: 0 20px;
+    }
+}
+
+.header_1{
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.header_2{
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 63px;
+}
+
+.header_3{
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.header_4{
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.header_5{
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.header_6{
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.paragraph{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
