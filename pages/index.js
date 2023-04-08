@@ -1,11 +1,16 @@
-import About from './home/about'
-import Numerics from './home/numerics'
+import AboutUs from './home'
+import Hero from "../components/home/hero"
+import HomeLayout from '../layouts/home'
 
-export default function Home() {
+const Home = () => {
   return (
     <>
-      <About />
-      <Numerics />
+      <Hero />
+      <AboutUs />
     </>
   )
 }
+
+Home.layout = HomeLayout
+export default Home;
+
